@@ -1,0 +1,45 @@
+.About img.img-mobile {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    padding: 50px;
+    margin-top: -75px;
+}
+
+.About .mobile{
+    text-align: end;
+    margin-top: 70px;
+}
+
+.About .mobile h3{
+    font-size: 30px;
+    font-weight: bold;
+    color: #888687;
+}
+
+.About .mobile h1{
+    font-size: 45px;
+    font-weight: bold;
+}
+.About .mobile p{
+    font-size: 20px;
+    line-height: 32px;
+}
+
+.About .line{
+    height: 5px;
+    background-color: red;
+}
+
+
+@media (max-width: 576px) {
+  
+    .About .mobile h1{
+        font-size: 35px;
+    }
+
+    .About .mobile p{
+        font-size: 15px;
+        line-height: 25px;
+    }
+}

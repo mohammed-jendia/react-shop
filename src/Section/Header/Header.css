@@ -1,0 +1,134 @@
+
+nav{
+    background: url('../../assets/hea.png') no-repeat ;
+    background-size: cover;
+    height: 100px;
+}
+
+#responsive-navbar-nav{
+   margin-left: 300px;
+
+}
+
+#responsive-navbar-nav a{
+    margin-right: 30px;
+    color: white;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+#responsive-navbar-nav a:hover{
+    color: rgb(235, 181, 181);
+}
+
+nav .navbar-brand img{
+    margin-left: 100px;
+    margin-top: 5px;
+}
+
+/*    Media Query    */
+
+@media  (max-width: 576px) {
+
+    .navbar{
+        flex-wrap: nowrap !important;
+    }
+
+    nav .navbar-brand img {
+        margin-left: 10px;
+    }
+
+    .Search img{
+        display: none;
+    }
+
+    #responsive-navbar-nav a{
+        color:black ;
+        margin-left: 20px;
+    }
+
+    #responsive-navbar-nav{
+        z-index: 9 !important;
+        background-color: white;
+        margin-top: 20px;
+    }
+    
+    .navbar-dark .navbar-toggler {
+        color: white;
+        border-color: white;
+        background-color: red;
+        margin-right: 15px;
+    }
+}
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+
+    .Search img{
+        display: none;
+    }
+
+    #responsive-navbar-nav a{
+        color:black ;
+        margin-left: 20px;
+    }
+
+    #responsive-navbar-nav{
+        z-index: 9 !important;
+        background-color: white;
+        margin-top: 20px;
+    }
+
+    nav .navbar-brand img{
+        margin-left: 50px;
+        margin-top: 10px;
+    }
+
+    .navbar-dark .navbar-toggler {
+        color: white;
+        border: 1px solid white !important;
+        margin-right: 15px;
+    }
+
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+
+
+    .Search img{
+        display: none;
+    }
+
+    #responsive-navbar-nav a{
+        color:black ;
+        margin-left: 20px;
+    }
+
+    #responsive-navbar-nav{
+        z-index: 9 !important;
+        background-color: white;
+        margin-top: 30px;
+    }
+
+    .navbar-dark .navbar-toggler {
+        color: white;
+        border: 1px solid white !important;
+        margin-right: 15px;
+    }
+
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+
+    .Search img{
+        display: none;
+    }
+
+    #responsive-navbar-nav{
+        margin-left: 250px;
+     }
+
+     #responsive-navbar-nav a{
+        margin-right: 5px;
+        font-size: 18px;
+    }
+   
+}

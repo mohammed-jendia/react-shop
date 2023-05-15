@@ -1,0 +1,18 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Noto Kufi Arabic', sans-serif;
+  font-family: 'Open Sans', sans-serif;
+  font-family: 'Poppins', sans-serif;
+
+}
+ul{
+  list-style-type: none!important;
+}
+
+a{
+  text-decoration: none!important;
+}
+.row{
+  padding: 4rem 0;
+}

@@ -1,0 +1,63 @@
+.OurBrand{
+    margin-top: 50px;
+    background-color: #ebebeb;
+}
+
+.OurBrand .row{
+    margin-bottom: -30px;
+}
+
+.card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+    margin: 15px 0;
+    overflow: hidden;
+   
+}
+
+.card img{
+ max-width: 100px;
+ width: 100%;
+ height: 200px;
+}
+.card h3{
+    color: red;
+    margin-top: 15px;
+}
+
+.card p{
+    color: blue;
+}
+
+.card ul{
+    display: flex;
+    margin-right: 25px;
+}
+.card ul img{
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+.OurBrand #btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.OurBrand button{
+    padding: 13px 60px;
+    border-radius: 50px;
+    margin-bottom: 40px;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    font-size: 17px;
+}
+
+.OurBrand button:hover{
+    background-color: red;
+    transition: all 0.5s ;
+}

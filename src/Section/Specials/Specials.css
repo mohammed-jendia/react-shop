@@ -1,0 +1,204 @@
+
+.slider{
+    background-color: black;
+    z-index: 0 !important;
+    position: relative;
+
+}
+
+.carousel-item img{
+    width: 100% !important;
+    max-width: 100%;
+
+}
+
+.carousel-item #btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.carousel-item button{
+    padding: 13px 60px;
+    border-radius: 50px;
+    margin-bottom: 40px;
+    background-color: white;
+    color: red;
+    font-weight: bold;
+    font-size: 17px;
+}
+
+.carousel-item button:hover{
+    background-color: red;
+    color:white ;
+    transition: all 0.5s ;
+}
+
+.carousel-caption{
+    bottom: 116px;
+}
+
+.carousel-indicators button{
+    display: none;
+}
+
+.carousel-control-prev span.visually-hidden,
+.carousel-control-next span.visually-hidden{
+    display: none;
+}
+
+.carousel-control-prev span.carousel-control-prev-icon,
+.carousel-control-next span.carousel-control-next-icon{
+    padding: 20px;
+}
+
+.text h1 {
+    font-size: 4.5rem !important ;
+    font-weight: bold;
+    padding: 15px !important ;
+}
+
+.text h2 {
+    font-size: 3.5rem !important ;
+    font-weight: bold !important ;
+}
+
+.text p{
+    font-size: 20px;
+    padding: 15px 90px;
+}
+
+.icons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 15px;
+}
+
+.icons .icon{
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    padding: 8px;
+    margin: 0 10px;
+    border: 1px solid;
+}
+
+.icons .icon:hover{
+    background-color: red;
+    transition: all 0.5s ;
+}
+
+/*    Media Query    */
+
+@media (max-width: 576px) {
+
+    .text p{
+        display: none;
+    }
+  
+    .text h1 {
+        font-size: 1.5rem !important ;
+        padding: 5px !important ;
+    }
+    
+    .text h2 {
+        font-size: 20px !important ;
+    }
+
+    .carousel-item button{
+        padding: 7px 40px;
+        font-size: 15px;
+        margin-bottom: -5px;
+    }
+
+    .icons .icon{
+        display: none;
+    }
+
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+
+    .text p{
+        display: none;
+    }
+
+    .text h1 {
+        font-size: 2rem !important ;
+        padding: 5px !important ;
+    }
+    
+    .text h2 {
+        font-size: 1.5rem  !important ;
+    }
+
+    .carousel-item button{
+        padding: 8px 30px;
+        font-size: 15px;
+        margin-bottom: 20px;
+    }
+
+    .icons .icon{
+        width: 40px;
+        height: 40px;
+        padding: 6px;
+    }
+
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+
+    .text h1 {
+        font-size: 2rem !important ;
+        padding: 5px !important ;
+    }
+    
+    .text h2 {
+        font-size: 1.5rem  !important ;
+    }
+
+    .text p{
+        font-size: 15px;
+        padding: 10px 8px;
+    }
+
+    .carousel-item button{
+        padding: 8px 30px;
+        font-size: 15px;
+        margin-bottom: 20px;
+    }
+
+    .icons .icon{
+        width: 40px;
+        height: 40px;
+        padding: 6px;
+    }
+
+
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+
+    .text h1 {
+        font-size: 3rem !important ;
+        font-weight: bold;
+        padding: 10px !important ;
+    }
+    
+    .text h2 {
+        font-size: 2rem !important ;
+        font-weight: bold !important ;
+    }
+    
+    .text p{
+        font-size: 18px;
+        padding: 10px 40px;
+    }
+    
+    .carousel-item button{
+        padding: 10px 50px;
+        margin-bottom: 20px;
+        font-size: 17px;
+    }
+}

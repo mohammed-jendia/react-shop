@@ -1,0 +1,131 @@
+footer{
+    background-color: #051108;
+}
+
+.footer-box{
+    text-align: center;
+    color: white;
+
+}
+
+.footer-box .header-text h2 {
+    font-size: 3rem;
+}
+
+.header-text .line{
+    color: white;
+    background-color: white;
+    width: 800px;
+    margin-bottom: 20px;
+}
+
+.header-text span{
+    margin: 20px 0px;
+    font-size: 20px;
+}
+
+.header-text p{
+    margin: 25px 0px;
+    line-height: 35px;
+    font-size: 20px;
+}
+
+.icons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 15px;
+}
+
+.icons .icon{
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    padding: 8px;
+    margin: 0 10px;
+    border: 1px solid;
+}
+
+.icons .icon:hover{
+    background-color: red;
+    transition: all 0.5s ;
+}
+
+.footer-button .links{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.footer-button .links li a{
+    margin: 0 20px;
+    color: white ;
+    font-size: 20px;
+}
+
+.footer-button .links li a:hover{
+    color: red;
+    transition: all 0.5s ;
+}
+
+
+
+
+@media (max-width: 576px) {
+
+    .footer-box .header-text h2 {
+        font-size: 2rem;
+    }
+
+    .footer-button .links li a{
+        margin: 0 10px;
+        font-size: 13px;
+    }
+
+    .header-text span{
+        margin: 15px 0px;
+        padding: 0 30px;
+        font-size: 15px;
+    }
+    
+    .header-text p{
+        margin: 20px 0px;
+        line-height: 30px;
+        font-size: 15px;
+    }
+
+    .header-text .line{
+        width: 300px;
+    }
+}
+
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+
+
+    .footer-button .links li a{
+        margin: 0 15px;
+        font-size: 17px;
+    }
+
+    .header-text .line{
+        width: 550px;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+
+
+    .header-text .line{
+        width: 600px;
+    }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+
+    .header-text .line{
+        width: 700px;
+    }
+
+}
